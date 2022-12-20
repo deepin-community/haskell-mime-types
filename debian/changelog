@@ -1,0 +1,134 @@
+haskell-mime-types (0.1.0.9-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:39:56 +0800
+
+haskell-mime-types (0.1.0.9-2) unstable; urgency=medium
+
+  * Sourceful upload for GHC 8.8.
+
+ -- Clint Adams <clint@debian.org>  Wed, 03 Jun 2020 13:30:43 -0400
+
+haskell-mime-types (0.1.0.9-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sun, 28 Jul 2019 15:38:59 -0400
+
+haskell-mime-types (0.1.0.8-3) unstable; urgency=medium
+
+  * Remove build dependency on libghc-text-dev (provided by ghc-8.4.3)
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Mon, 01 Oct 2018 13:47:37 +0300
+
+haskell-mime-types (0.1.0.8-2) unstable; urgency=medium
+
+  * Bump debhelper compat level to 10
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sun, 30 Sep 2018 21:14:50 +0300
+
+haskell-mime-types (0.1.0.8-1) unstable; urgency=medium
+
+  * Set Rules-Requires-Root to no.
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Tue, 03 Jul 2018 22:39:01 -0400
+
+haskell-mime-types (0.1.0.7-4) unstable; urgency=medium
+
+  [ Ilias Tsitsimpis ]
+  * Change Priority to optional. Since Debian Policy version 4.0.1,
+    priority extra has been deprecated.
+  * Use the HTTPS form of the copyright-format URL
+  * Modify d/watch and Source field in d/copyright to use HTTPS
+  * Declare compliance with Debian policy 4.1.1
+  * Use salsa.debian.org URLs in Vcs-{Browser,Git} fields
+
+  [ Clint Adams ]
+  * Bump to Standards-Version 4.1.4.
+
+ -- Clint Adams <clint@debian.org>  Mon, 09 Apr 2018 20:04:57 -0400
+
+haskell-mime-types (0.1.0.7-3) unstable; urgency=medium
+
+  * Upload to unstable as part of GHC 8 transition.
+
+ -- Clint Adams <clint@debian.org>  Thu, 27 Oct 2016 18:34:56 -0400
+
+haskell-mime-types (0.1.0.7-2) experimental; urgency=medium
+
+  * Temporarily build-depend on ghc 8.
+
+ -- Clint Adams <clint@debian.org>  Fri, 14 Oct 2016 16:56:39 -0400
+
+haskell-mime-types (0.1.0.7-1) unstable; urgency=medium
+
+  [ Dmitry Bogatov ]
+  * Use secure (https) uri in Vcs-Git field in 'debian/control'
+  * Bump standards version to 3.9.8 (no changes needed)
+  * Convert `debian/copyright' to dep5 format
+
+  [ Joachim Breitner ]
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Sun, 29 May 2016 12:32:42 +0200
+
+haskell-mime-types (0.1.0.6-3) unstable; urgency=medium
+
+  * Switch Vcs-Git/Vcs-Browser headers to new location.
+
+ -- Clint Adams <clint@debian.org>  Thu, 03 Dec 2015 14:54:46 -0500
+
+haskell-mime-types (0.1.0.6-2) experimental; urgency=medium
+
+  * Bump standards-version to 3.9.6
+  * Depend on haskell-devscripts >= 0.10 to ensure that this package
+    builds against GHC in experimental
+
+ -- Joachim Breitner <nomeata@debian.org>  Thu, 20 Aug 2015 10:28:10 +0200
+
+haskell-mime-types (0.1.0.6-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 29 Jun 2015 11:38:49 +0200
+
+haskell-mime-types (0.1.0.4-3) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 27 Apr 2015 11:51:35 +0200
+
+haskell-mime-types (0.1.0.4-2) experimental; urgency=medium
+
+  * Depend on haskell-devscripts 0.9, found in experimental
+  * Fix description
+
+ -- Joachim Breitner <nomeata@debian.org>  Sun, 21 Dec 2014 15:23:04 +0100
+
+haskell-mime-types (0.1.0.4-1) unstable; urgency=low
+
+  * Adjust watch file to new hackage layout
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 04 Aug 2014 23:51:03 +0200
+
+haskell-mime-types (0.1.0.0-3) unstable; urgency=low
+
+  * Enable compat level 9
+  * Use substvars for Haskell description blurbs
+
+ -- Joachim Breitner <nomeata@debian.org>  Sat, 25 May 2013 11:17:54 +0200
+
+haskell-mime-types (0.1.0.0-2) experimental; urgency=low
+
+  * Use haskell-devscripts >= 0.8.13.
+
+ -- Clint Adams <clint@debian.org>  Sun, 21 Oct 2012 16:51:52 -0400
+
+haskell-mime-types (0.1.0.0-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Clint Adams <clint@debian.org>  Sun, 21 Oct 2012 16:43:40 -0400
